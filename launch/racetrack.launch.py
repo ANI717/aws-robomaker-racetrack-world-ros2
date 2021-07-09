@@ -7,7 +7,7 @@ This script launches AWS Racetrack World in ROS2.
 
 Revision History:
 
-        2021-12-25 (Animesh): Baseline Software.
+        2021-07-09 (Animesh): Baseline Software.
 
 Example:
         $ ros2 launch aws_robomaker_racetrack_world racetrack.launch.py
