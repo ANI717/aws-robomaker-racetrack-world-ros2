@@ -1,2 +1,2 @@
-prepend-non-duplicate;GAZEBO_MODEL_PATH;share/aws_robomaker_racetrack_world/models
-prepend-non-duplicate;GAZEBO_MODEL_PATH;share/aws_robomaker_racetrack_world/worlds
+prepend-non-duplicate;GAZEBO_MODEL_PATH;share/@PROJECT_NAME@/models
+prepend-non-duplicate;GAZEBO_MODEL_PATH;share/@PROJECT_NAME@/worlds
