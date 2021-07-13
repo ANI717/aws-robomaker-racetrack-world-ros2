@@ -10,7 +10,7 @@ Revision History:
         2021-07-09 (Animesh): Baseline Software.
 
 Example:
-        $ ros2 launch aws_robomaker_racetrack_world racetrack_launch.py
+        $ colcon build && source install/setup.bash && ros2 launch aws_robomaker_racetrack_world racetrack_launch.py
 
 """
 
