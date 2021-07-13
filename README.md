@@ -16,5 +16,5 @@ git clone https://github.com/ANI717/aws-robomaker-racetrack-world-ros2
 ```
 Or update `.rosinstall` file with following command and run `rosws update` to clone this repository
 ```
-- git: {local-name: src/deps/aws-robomaker-racetrack-world, uri: 'https://github.com/ANI717/aws-robomaker-racetrack-world-ros2.git', version: ros2}
+- git: {local-name: src/deps/aws-robomaker-racetrack-world, uri: 'https://github.com/ANI717/aws-robomaker-racetrack-world-ros2.git', version: main}
 ```
