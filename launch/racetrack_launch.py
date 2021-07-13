@@ -33,7 +33,7 @@ def generate_launch_description():
     package_dir = get_package_share_directory('aws_robomaker_racetrack_world')
     
     
-    # Create launch configuration variables specific to simulation
+    # Create launch configuration variables
     use_simulator = LaunchConfiguration('use_simulator')
     headless = LaunchConfiguration('headless')
     world = LaunchConfiguration('world')
@@ -77,7 +77,7 @@ def generate_launch_description():
     ld.add_action(declare_simulator_cmd)
     ld.add_action(declare_world_cmd)
     
-    # Add any conditioned actions
+    # Add all actions
     ld.add_action(start_gazebo_server_cmd)
     ld.add_action(start_gazebo_client_cmd)
         
