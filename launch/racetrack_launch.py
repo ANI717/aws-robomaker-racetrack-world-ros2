@@ -59,12 +59,14 @@ def generate_launch_description():
     start_gazebo_server_cmd = ExecuteProcess(
         condition=IfCondition(use_simulator),
         cmd=['gzserver', '--verbose', '-s', 'libgazebo_ros_init.so', '-s', 'libgazebo_ros_factory.so', world],
-        cwd=[package_dir], output='screen')
+        cwd=[package_dir],
+        output='screen')
     
     start_gazebo_client_cmd = ExecuteProcess(
         condition=IfCondition(PythonExpression([use_simulator, ' and not ', headless])),
         cmd=['gzclient'],
-        cwd=[package_dir], output='screen')
+        cwd=[package_dir],
+        output='screen')
     
     
     # Create the launch description and populate
